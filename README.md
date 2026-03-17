@@ -1,15 +1,14 @@
 # Wireshark Packet Analysis Lab
 
 
-
-
-
+<p align="center">
+  <img src="screenshots/wireshark-logo.jpg" width="1200" height="350">
+</p>
 
 
 ## Project Overview
 
-This project demonstrates network packet analysis using Wireshark.  
-The lab focuses on inspecting packet captures (PCAP files), understanding how data moves across the network, and using Wireshark tools to investigate network traffic.
+This project demonstrates network packet analysis using Wireshark. The lab focuses on inspecting packet captures (PCAP files), understanding how data moves across the network, and using Wireshark tools to investigate network traffic.
 
 During the analysis, packets were inspected across multiple protocol layers, HTTP traffic was analyzed, and filtering techniques were used to isolate specific communication streams.
 
@@ -49,11 +48,13 @@ The main interface consists of:
 - **Packet Bytes Pane** – Displays the raw packet data in hexadecimal and ASCII format.
 
 
+<p align="center">
+  <img src="screenshots/wireshark-interface.jpg" width="700" height="450">
+</p>
 
-
-
-
-
+<p align="center">
+  <img src="screenshots/wireshark-pcap.jpg" width="700" height="450">
+</p>
 
 
 ---
@@ -74,10 +75,9 @@ During this lab, packets were analyzed according to the OSI model layers includi
 Each layer provides important information such as source and destination addresses, ports, and application data.
 
 
-
-
-
-
+<p align="center">
+  <img src="screenshots/packet-details.jpg" width="700" height="450">
+</p>
 
 
 ---
@@ -97,10 +97,9 @@ By selecting HTTP packets and inspecting their details, it was possible to ident
 This type of analysis helps security analysts understand how web communication occurs across a network.
 
 
-
-
-
-
+<p align="center">
+  <img src="screenshots/http-packet-analysis.jpg" width="700" height="450">
+</p>
 
 
 ---
@@ -119,11 +118,9 @@ Some of the techniques used in this lab include:
 These features are particularly useful when analyzing captures containing thousands of packets.
 
 
-
-
-
-
-
+<p align="center">
+  <img src="screenshots/Packet-comment.gif" width="700" height="450">
+</p>
 
 
 ---
@@ -143,12 +140,9 @@ ip.addr == 192.168.x.x
 Filtering reduces noise in packet captures and helps analysts focus only on relevant network activity.
 
 
-
-
-
-
-
-
+<p align="center">
+  <img src="screenshots/display-filter.gif" width="700" height="450">
+</p>
 
 
 ---
@@ -166,11 +160,9 @@ This feature is useful for:
 - Investigating suspicious communications
 
 
-
-
-
-
-
+<p align="center">
+  <img src="screenshots/http-stream.jpg" width="600" height="600">
+</p>
 
 
 ---
@@ -190,11 +182,9 @@ md5sum <filename>
 This command generates an **MD5 hash**, which can be used to confirm whether a file has been modified or corrupted.
 
 
-
-
-
-
-
+<p align="center">
+  <img src="screenshots/file-hash.jpg" width="700" height="450">
+</p>
 
 
 ---
@@ -203,13 +193,23 @@ This command generates an **MD5 hash**, which can be used to confirm whether a f
 
 A `.txt` file embedded in the packet capture was discovered during analysis.
 
+
+<p align="center">
+  <img src="screenshots/exporting-txt-file.jpg" width="700" height="450">
+</p>
+
+
+<p align="center">
+  <img src="screenshots/note-file.jpg" width="700" height="450">
+</p>
+
+
 After extracting and examining the file, the hidden content revealed the alien name:
 
 
-
-
-
-
+<p align="center">
+  <img src="screenshots/content.jpg" width="700" height="450">
+</p>
 
 
 
